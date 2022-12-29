@@ -1,0 +1,198 @@
+{
+  "camera": {
+    "fov": 50,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "pointlights": [
+    {
+      "position": {
+        "x": 0,
+        "y": 100,
+        "z": 0
+      },
+      "emission": {
+        "x": 200000,
+        "y": 200000,
+        "z": 200000
+      }
+    }
+  ],
+  "objects": [
+    {
+      "kind": "plane",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -50
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.6275,
+        "y": 0.326,
+        "z": 0.476
+      },
+      "params": {
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        }
+      }
+    },
+    {
+      "kind": "sphere",
+      "position": {
+        "x": 0,
+        "y": -7,
+        "z": -20
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.7,
+        "y": 0,
+        "z": 0
+      },
+      "params": {
+        "radius": 6
+      }
+    },
+    {
+      "kind": "sphere",
+      "position": {
+        "x": 9,
+        "y": 2,
+        "z": -18
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.3,
+        "y": 0,
+        "z": 0.8
+      },
+      "params": {
+        "radius": 2
+      }
+    },
+    {
+      "kind": "torus",
+      "position": {
+        "x": 7,
+        "y": -2,
+        "z": -20
+      },
+      "rotation": {
+        "x": 30,
+        "y": 30,
+        "z": -30
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.1,
+        "y": 0.7,
+        "z": 0.2
+      },
+      "params": {
+        "r1": 2,
+        "r2": 0.35
+      }
+    },
+    {
+      "kind": "sphere",
+      "position": {
+        "x": -9,
+        "y": 2,
+        "z": -18
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.3,
+        "y": 0,
+        "z": 0.8
+      },
+      "params": {
+        "radius": 2
+      }
+    },
+    {
+      "kind": "torus",
+      "position": {
+        "x": -7,
+        "y": -2,
+        "z": -20
+      },
+      "rotation": {
+        "x": 30,
+        "y": -30,
+        "z": 30
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.1,
+        "y": 0.7,
+        "z": 0.2
+      },
+      "params": {
+        "r1": 2,
+        "r2": 0.35
+      }
+    },
+    {
+      "kind": "sphere",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -50
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 25,
+      "color": {
+        "x": 0,
+        "y": 0.1,
+        "z": 0.8
+      },
+      "params": {
+        "radius": 20
+      }
+    }
+  ]
+}

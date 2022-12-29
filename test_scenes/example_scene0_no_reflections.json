@@ -1,0 +1,183 @@
+{
+  "camera": {
+    "fov": 30,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "pointlights": [
+    {
+      "position": {
+        "x": 0,
+        "y": 100,
+        "z": 0
+      },
+      "emission": {
+        "x": 200000,
+        "y": 200000,
+        "z": 200000
+      }
+    }
+  ],
+  "objects": [
+    {
+      "kind": "plane",
+      "position": {
+        "x": 0,
+        "y": -3,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "params": {
+        "normal": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      }
+    },
+    {
+      "kind": "box",
+      "position": {
+        "x": -4,
+        "y": -1.5,
+        "z": -15
+      },
+      "rotation": {
+        "x": -1.5,
+        "y": -1.5,
+        "z": -12
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0,
+        "y": 0.1,
+        "z": 0.6
+      },
+      "params": {
+        "extents": {
+          "x": 0.25,
+          "y": 0.5,
+          "z": 1
+        }
+      }
+    },
+    {
+      "kind": "box",
+      "position": {
+        "x": 1.5,
+        "y": -1.5,
+        "z": -12
+      },
+      "rotation": {
+        "x": 17,
+        "y": -30,
+        "z": 45
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0,
+        "y": 0.1,
+        "z": 0.6
+      },
+      "params": {
+        "extents": {
+          "x": 0.55,
+          "y": 0.6,
+          "z": 0.75
+        }
+      }
+    },
+    {
+      "kind": "sphere",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -20
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.3,
+        "y": 0,
+        "z": 0
+      },
+      "params": {
+        "radius": 3
+      }
+    },
+    {
+      "kind": "torus",
+      "position": {
+        "x": 4,
+        "y": -1.5,
+        "z": -15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0
+      },
+      "params": {
+        "r1": 1,
+        "r2": 0.5
+      }
+    },
+    {
+      "kind": "torus",
+      "position": {
+        "x": -1.5,
+        "y": -1.5,
+        "z": -12
+      },
+      "rotation": {
+        "x": 90,
+        "y": -25,
+        "z": 0
+      },
+      "reflection": 0,
+      "shininess": 15,
+      "color": {
+        "x": 0,
+        "y": 0.6,
+        "z": 0.1
+      },
+      "params": {
+        "r1": 1.1,
+        "r2": 0.2
+      }
+    }
+  ]
+}

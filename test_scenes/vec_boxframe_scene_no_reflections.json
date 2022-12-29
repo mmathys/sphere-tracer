@@ -1,0 +1,439 @@
+{
+    "camera": {
+        "fov": 60,
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 30
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "pointlights": [
+        {
+            "position": {
+                "x": 8,
+                "y": 8,
+                "z": 10
+            },
+            "emission": {
+                "x": 8000,
+                "y": 8000,
+                "z": 8000
+            }
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 8,
+                "z": -10
+            },
+            "emission": {
+                "x": 6000,
+                "y": 8000,
+                "z": 8000
+            }
+        }
+    ],
+    "objects": [
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 10,
+                "y": 10,
+                "z": 0
+            },
+            "rotation": {
+                "x": 30,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0,
+                "y": 0.8,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 0,
+                "y": 10,
+                "z": 0
+            },
+            "rotation": {
+                "x": 30,
+                "y": 55,
+                "z": 80
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0,
+                "y": 0.8,
+                "z": 0.5
+            },
+            "params": {
+                "extents": {
+                    "x": 3,
+                    "y": 3,
+                    "z": 3
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": -10,
+                "y": 10,
+                "z": 0
+            },
+            "rotation": {
+                "x": -30,
+                "y": 28,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 1,
+                "y": 0.8,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.6
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 10,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 90,
+                "y": 56,
+                "z": 30
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 5,
+                    "z": 1
+                },
+                "thickness": 0.4
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 45,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0.1,
+                "y": 0.1,
+                "z": 0.1
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 3,
+                    "z": 3
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": -10,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 70,
+                "y": 3,
+                "z": -250
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0.6,
+                "y": 0.8,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 10,
+                "y": -10,
+                "z": 0
+            },
+            "rotation": {
+                "x": 40,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0,
+                "y": 0.8,
+                "z": 1
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 0,
+                "y": -10,
+                "z": 0
+            },
+            "rotation": {
+                "x": 30,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0,
+                "y": 0.8,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 3,
+                    "y": 3,
+                    "z": 3
+                },
+                "thickness": 0.33
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": -10,
+                "y": -10,
+                "z": 0
+            },
+            "rotation": {
+                "x": 15,
+                "y": 222,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0.7,
+                "y": 0.2,
+                "z": 0.9
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.1
+            }
+        },
+
+
+
+
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 10,
+                "y": 10,
+                "z": -20
+            },
+            "rotation": {
+                "x": 30,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0,
+                "y": 0.8,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 0,
+                "y": 10,
+                "z": -20
+            },
+            "rotation": {
+                "x": 30,
+                "y": 55,
+                "z": 80
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0,
+                "y": 0.8,
+                "z": 0.5
+            },
+            "params": {
+                "extents": {
+                    "x": 3,
+                    "y": 3,
+                    "z": 3
+                },
+                "thickness": 0.3
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": -10,
+                "y": 10,
+                "z": -20
+            },
+            "rotation": {
+                "x": -30,
+                "y": 28,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 1,
+                "y": 0.8,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 2,
+                    "z": 2
+                },
+                "thickness": 0.6
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 10,
+                "y": 0,
+                "z": -20
+            },
+            "rotation": {
+                "x": 90,
+                "y": 56,
+                "z": 30
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 5,
+                    "z": 1
+                },
+                "thickness": 0.4
+            }
+        },
+        {
+            "kind": "boxframe",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": -20
+            },
+            "rotation": {
+                "x": 0,
+                "y": 45,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 5,
+            "color": {
+                "x": 0.1,
+                "y": 0.1,
+                "z": 0.1
+            },
+            "params": {
+                "extents": {
+                    "x": 2,
+                    "y": 3,
+                    "z": 3
+                },
+                "thickness": 0.3
+            }
+        }
+    ]
+}

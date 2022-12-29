@@ -1,0 +1,276 @@
+{
+    "camera": {
+        "fov": 60,
+        "position": {
+            "x": 0,
+            "y": -15,
+            "z": 15
+        },
+        "rotation": {
+            "x": 10,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "pointlights": [
+        {
+            "position": {
+                "x": 5,
+                "y": 15,
+                "z": 0
+            },
+            "emission": {
+                "x": 6000,
+                "y": 6000,
+                "z": 6000
+            }
+        }
+    ],
+    "objects": [
+        {
+            "kind": "plane",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": -30
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": 0,
+                "y": -20,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": 20,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": -1,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": -20,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": 1,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": 0,
+                "y": 20,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": 15,
+                "y": 15,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": -0.7071067811865475,
+                    "y": -0.7071067811865475,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": -15,
+                "y": 15,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": 0.7071067811865475,
+                    "y": -0.7071067811865475,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": -15,
+                "y": -15,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": 0.7071067811865475,
+                    "y": 0.7071067811865475,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "kind": "plane",
+            "position": {
+                "x": 15,
+                "y": -15,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0,
+            "shininess": 15,
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "params": {
+                "normal": {
+                    "x": -0.7071067811865475,
+                    "y": 0.7071067811865475,
+                    "z": 0
+                }
+            }
+        }
+
+
+    ]
+}

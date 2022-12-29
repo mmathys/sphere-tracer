@@ -1,0 +1,302 @@
+{
+    "camera": {
+        "fov": 60,
+        "position": {
+            "x": 10,
+            "y": 12,
+            "z": 15
+        },
+        "rotation": {
+            "x": -40,
+            "y": 35,
+            "z": 0
+        }
+    },
+    "pointlights": [
+        {
+            "position": {
+                "x": 8,
+                "y": 10,
+                "z": 5
+            },
+            "emission": {
+                "x": 8000,
+                "y": 8000,
+                "z": 8000
+            }
+        }
+    ],
+    "objects": [
+        {
+            "kind": "plane",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 10,
+            "color": {
+                "x": 0.95,
+                "y": 0.55,
+                "z": 0.75
+            },
+            "params": {
+                "normal": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                }
+            }
+        },
+
+        {
+            "kind": "box",
+            "position": {
+                "x": -10,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": -7.5,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": -5,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": -2.5,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": 0,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": 2.5,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": 5,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": 7.5,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  }
+            }
+        },
+        {
+            "kind": "box",
+            "position": {
+                "x": 10,
+                "y": 1,
+                "z": 5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "reflection": 0.3,
+            "shininess": 5,
+            "color": {
+                "x": 0.8,
+                "y": 0.5,
+                "z": 0
+            },
+            "params": {
+                "extents": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  }
+            }
+        }
+    ]
+}

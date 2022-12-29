@@ -1,0 +1,118 @@
+{
+    "camera": {
+      "fov": 50,
+      "position": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "pointlights": [
+      {
+        "position": {
+          "x": 4,
+          "y": 15,
+          "z": 4
+        },
+        "emission": {
+          "x": 5000,
+          "y": 0,
+          "z": 5000
+        }
+      },
+      {
+        "position": {
+          "x": -5,
+          "y": 15,
+          "z": -3
+        },
+        "emission": {
+          "x": 2000,
+          "y": 7000,
+          "z": 7000
+        }
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 15,
+          "z": 10
+        },
+        "emission": {
+          "x": 8000,
+          "y": 8000,
+          "z": 2000
+        }
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 15,
+          "z": -20
+        },
+        "emission": {
+          "x": 4000,
+          "y": 4000,
+          "z": 4000
+        }
+      }
+    ],
+    "objects": [
+      {
+        "kind": "plane",
+        "position": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "shininess": 15,
+        "color": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        },
+        "params": {
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          }
+        }
+      },
+      {
+        "kind": "torus",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -20
+        },
+        "rotation": {
+          "x": 30,
+          "y": 0,
+          "z": 0
+        },
+        "reflection": 0,
+        "shininess": 15,
+        "color": {
+          "x": 0.9,
+          "y": 0.7,
+          "z": 0.7
+        },
+        "params": {
+          "r1": 2,
+          "r2": 0.5
+        }
+      }
+    ]
+  }
